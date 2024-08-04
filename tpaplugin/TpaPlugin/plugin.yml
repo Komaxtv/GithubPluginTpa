@@ -1,0 +1,17 @@
+name: Tpaplugin
+version: 1.0
+main: fr.Komaxtv.tpa.Main
+api-version: 1.13
+commands:
+  tpa:
+    description: Demande de téléportation vers un joueur.
+    usage: /<command> <pseudo>
+  tpahere:
+    description: Demande à téléporter un joueur vers vous.
+    usage: /<command> <pseudo>
+  tpconfirm:
+    description: Accepte une demande de téléportation.
+    usage: /<command>
+  tprefu:
+    description: Refuse une demande de téléportation.
+    usage: /<command>
