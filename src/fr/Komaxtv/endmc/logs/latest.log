@@ -1,0 +1,19 @@
+[14:51:31] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:51:31] [Server thread/INFO]: Loading properties
+[14:51:31] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Descripteur non valide
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:252) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:271) ~[?:?]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot.jar:git-Spigot-21fe707-741a1bd]
+	at net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:81) [spigot.jar:git-Spigot-21fe707-741a1bd]
+[14:51:31] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[14:51:31] [Server thread/INFO]: Stopping server

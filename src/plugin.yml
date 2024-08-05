@@ -1,0 +1,4 @@
+name: EndMCPlugin
+main: fr.Komaxtv.endmc.EndMCPlugin
+version: 1.0
+api-version: 1.8
